@@ -1,0 +1,15 @@
+{
+	"name": "customer_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onpremseMySQLLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`customer`"
+		}
+	}
+}
