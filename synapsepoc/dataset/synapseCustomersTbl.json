@@ -1,0 +1,19 @@
+{
+	"name": "synapseCustomersTbl",
+	"properties": {
+		"folder": {
+			"name": "cokedemo"
+		},
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "synapseCustomersTbl"
+		},
+		"sqlPool": {
+			"referenceName": "ccbjiojr226biu3plapocws1p1",
+			"type": "SqlPoolReference"
+		}
+	}
+}
