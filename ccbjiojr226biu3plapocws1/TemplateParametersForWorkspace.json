@@ -8,6 +8,9 @@
 		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
 			"value": ""
 		},
+		"cokedemomysqlLinkedService_connectionString": {
+			"value": ""
+		},
 		"onpremseMySQLLinkedService_connectionString": {
 			"value": ""
 		},
