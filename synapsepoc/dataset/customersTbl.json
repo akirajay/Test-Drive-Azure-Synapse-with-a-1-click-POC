@@ -1,0 +1,15 @@
+{
+	"name": "customersTbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "cokedemomysqlLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "cokedemo"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": []
+	}
+}
