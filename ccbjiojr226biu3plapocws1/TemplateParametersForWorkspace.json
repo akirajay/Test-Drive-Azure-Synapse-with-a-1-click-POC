@@ -11,6 +11,9 @@
 		"cokedemomysqlLinkedService_connectionString": {
 			"value": ""
 		},
+		"cokedemostorage_accountKey": {
+			"value": ""
+		},
 		"onpremseMySQLLinkedService_connectionString": {
 			"value": ""
 		},
@@ -22,6 +25,9 @@
 		},
 		"TripFaresDataLakeStorageLinkedService_properties_typeProperties_url": {
 			"value": "@{concat('https://',linkedService().datalakeAccountName,'.dfs.core.windows.net')}"
+		},
+		"cokedemostorage_properties_typeProperties_url": {
+			"value": "https://cokeadglsgen2.dfs.core.windows.net"
 		},
 		"keyVaultLinkedservice_properties_typeProperties_baseUrl": {
 			"value": "@{concat('https://',linkedService().keyVaultName,'.vault.azure.net/')}"
